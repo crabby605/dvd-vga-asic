@@ -1,0 +1,28 @@
+# Verilog simulation output
+.DS_Store
+__pycache__/
+*.vcd
+*.fst
+*.lxt
+*.lxt2
+*.vvp
+
+# Verilator build output
+obj_dir/
+
+# Tiny Tapeout/OpenLane generated output
+runs/
+results/
+*.log
+
+# Tiny Tapeout GF180 generated files
+tt_submission/
+src/user_config.json
+src/config_merged.json
+test/sim_build/
+test/__pycache__/
+test/results.xml
+test/gate_level_netlist.v
+.idea*
+*.fst.hier
+.venv/
